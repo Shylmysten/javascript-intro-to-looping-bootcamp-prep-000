@@ -18,7 +18,7 @@ function forLoop(array) {
 // (using console.log) from the passed in number to 0. Then return the string 'done'
 
 function whileLoop(n) {
-  while( n > 0 ) {
+  while( whileLoop(n) > 0 ) {
     console.log(`--n`);
   } else {
     console.log(`done.`);
