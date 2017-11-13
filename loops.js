@@ -23,5 +23,4 @@ function whileLoop(n) {
     console.log(--n);
   }
     return myString;
-
 }
