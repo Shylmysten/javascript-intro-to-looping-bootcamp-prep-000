@@ -18,9 +18,10 @@ function forLoop(array) {
 // (using console.log) from the passed in number to 0. Then return the string 'done'
 
 function whileLoop(n) {
+  var myString = "done."
   while( n > 0 ) {
     console.log(--n);
   }
-    return console.log("done.");
+    return myString;
 
 }
