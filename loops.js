@@ -20,7 +20,7 @@ function forLoop(array) {
 function whileLoop(n) {
   while( n > 0 ) {
     console.log(--countdown);
-  } else {
-    console.log(`done.`);
- }
+  } 
+      console.log(`done.`);
+
 }
